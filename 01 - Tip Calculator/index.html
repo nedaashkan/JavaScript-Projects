@@ -8,42 +8,51 @@
     <title>Tip Calculator</title>
   </head>
   <body>
-    <h1>SPLI <br />TTER</h1>
+    <h1 class="heading">Tip Calculator</h1>
     <div class="tip-calculator-app">
       <div class="calculate-box">
-        <div class="input-box">
+        <div class="bill-box">
           <div>Bill</div>
           <input
             type="text"
             id="bill-el"
-            name="Bill"
+            class="bill"
             autofocus="on"
             autocomplete="off"
+            placeholder="0"
           />
         </div>
         <div class="select-tip-box">
           <div class="select-text">Select Tip %</div>
-          <div class="box1">
-            <button><span class="hidden">0</span>5%</button>
-            <button>10%</button>
-            <button>15%</button>
-          </div>
-          <div class="box2">
-            <button>25%</button>
-            <button>50%</button>
-            <input type="text" id="tip-el" autofocus="on" autocomplete="off" />
-          </div>
+          <button><span class="hidden">0</span>5%</button>
+          <button>10%</button>
+          <br class="phone-br" />
+          <button>15%</button>
+          <br class="desktop-br" />
+          <button>25%</button>
+          <br class="phone-br" />
+          <button>50%</button>
+          <input
+            type="text"
+            id="tip-el"
+            class="tip"
+            autofocus="on"
+            autocomplete="off"
+            placeholder="Custom"
+          />
         </div>
         <div class="number-of-people-box">
-          <div>
+          <div class="number-of-people-box-text">
             <span>Number of People</span>
-            <span id="massage-el">Can't be zero</span>
+            <span id="massage-el"></span>
           </div>
           <input
             type="text"
             id="people-num-el"
+            class="people-num"
             autofocus="on"
             autocomplete="off"
+            placeholder="0"
           />
         </div>
       </div>
@@ -53,14 +62,20 @@
             <h3>Tip Amount</h3>
             <span>/person</span>
           </div>
-          <h2>$0.00</h2>
+          <h2 id="tip-amount-el">$0</h2>
         </div>
         <div class="total">
           <div>
             <h3>Total</h3>
             <span>/person</span>
           </div>
-          <h2>$0.00</h2>
+          <h2 id="total-el">$0</h2>
+        </div>
+        <div class="rest-box">
+          <button class="calculate-btn" id="calculate-rest-btn">
+            calculate
+          </button>
+          <button class="rest-btn" id="calculate-rest-btn">reset</button>
         </div>
       </div>
     </div>
