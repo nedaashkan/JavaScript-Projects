@@ -12,7 +12,10 @@
     <div class="tip-calculator-app">
       <div class="calculate-box">
         <div class="bill-box">
-          <div>Bill</div>
+          <div class="text-box">
+            <span>Bill</span>
+            <span id="bill-massage-el" class="red-massage"></span>
+          </div>
           <input
             type="text"
             id="bill-el"
@@ -23,15 +26,20 @@
           />
         </div>
         <div class="select-tip-box">
-          <div class="select-text">Select Tip %</div>
-          <button><span class="hidden">0</span>5%</button>
-          <button>10%</button>
+          <div class="text-box">
+            <span>Select Tip %</span>
+            <span id="tip-massage-el" class="red-massage"></span>
+          </div>
+          <button onclick="tipBtnNum(5)">
+            <span class="hidden">0</span>5%
+          </button>
+          <button onclick="tipBtnNum(10)">10%</button>
           <br class="phone-br" />
-          <button>15%</button>
+          <button onclick="tipBtnNum(15)">15%</button>
           <br class="desktop-br" />
-          <button>25%</button>
+          <button onclick="tipBtnNum(25)">25%</button>
           <br class="phone-br" />
-          <button>50%</button>
+          <button onclick="tipBtnNum(50)">50%</button>
           <input
             type="text"
             id="tip-el"
@@ -42,9 +50,9 @@
           />
         </div>
         <div class="number-of-people-box">
-          <div class="number-of-people-box-text">
+          <div class="text-box">
             <span>Number of People</span>
-            <span id="massage-el"></span>
+            <span id="people-num-massage-el" class="red-massage"></span>
           </div>
           <input
             type="text"
@@ -62,20 +70,26 @@
             <h3>Tip Amount</h3>
             <span>/person</span>
           </div>
-          <h2 id="tip-amount-el">$0</h2>
+          <h2 id="tip-amount-el"></h2>
         </div>
         <div class="total">
           <div>
             <h3>Total</h3>
             <span>/person</span>
           </div>
-          <h2 id="total-el">$0</h2>
+          <h2 id="total-el"></h2>
         </div>
         <div class="rest-box">
-          <button class="calculate-btn" id="calculate-rest-btn">
+          <button
+            class="calculate-btn"
+            id="calculate-rest-btn"
+            onclick="calculate()"
+          >
             calculate
           </button>
-          <button class="rest-btn" id="calculate-rest-btn">reset</button>
+          <button class="rest-btn" id="calculate-rest-btn" onclick="reset()">
+            reset
+          </button>
         </div>
       </div>
     </div>
