@@ -1,3 +1,10 @@
+
+# Tip Calculator
+
+![Tip Calculator](/images/Tip-Calculator.PNG)
+
+View project Live : () 
+
 # Brief
 Okay kiddo, so you know how when we go out to eat at a restaurant, we have to pay for our food and leave a little extra money for the person who served us, right? Well, sometimes it's hard to figure out how much extra money to leave, especially if we're not good at math. 
 
