@@ -1,5 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Space Mono", monospace;
+  background-color: hsl(185, 41%, 84%);
+  font-weight: 700;
+}
+.tip-calculator-app {
+  color: hsl(186, 14%, 43%);
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 2em;
+}
+.tip-calculator-app input {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid hsl(186, 14%, 43%);
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  outline: none;
+  padding: 5px 10px;
+}
+
+.calculate-box,
+.result-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.result-box {
+  background-color: hsl(183, 100%, 15%);
+}
+.tip-amount,
+.total {
+  display: flex;
+  justify-content: space-around;
+}
+.hidden {
+  visibility: hidden;
+}
+#tip-el {
+  font-weight: 700;
+  width: 91px;
+  padding: 5px;
+}
+
+.select-tip-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-tip-box .box1,
+.select-tip-box .box2 {
+  display: flex;
+  justify-content: space-around;
+}
+.select-tip-box button {
+  padding: 0;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 600;
+  padding: 6px 21px;
+  border: none;
+  border-radius: 3px;
+}
+.input-box,
+.number-of-people-box,
+.select-text {
+  margin-left: 6px;
 }
