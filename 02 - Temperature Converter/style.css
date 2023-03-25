@@ -1,12 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
 }
 body {
+  background-color: blueviolet;
+  font-size: 24px;
+}
+.temperature-converter-body {
+  width: 450px;
+  background-color: #ffffff;
+  padding: 70px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.celsius-box,.fahrenheit-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-self: center;
-  height: 100%;
+}
+input {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #d2d2d2;
+  outline: none;
+  margin-top: 8px;
+  padding: 0 10px;
+}
+input:focus {
+  border-color: #3164ff;
 }
