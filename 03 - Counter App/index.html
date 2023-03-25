@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Base Project</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Counter App</title>
   </head>
   <body>
+    <div class="under-app-container"></div>
+    <div class="app-container">
+      <h1 id="num-el">0</h1>
+      <div class="btns">
+        <button class="dec-btn" onclick="dec()">
+          <i class="fas fa-minus"></i>
+        </button>
+        <button class="reset-btn" onclick="reset()">
+          <i class="fas fa-redo"></i>
+        </button>
+        <button class="inc-btn" onclick="inc()">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
