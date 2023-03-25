@@ -11,11 +11,21 @@
     <div class="temperature-converter-body">
       <div class="celsius-box">
         <label for="celsius">Celsius</label>
-        <input type="number" id="celsius-el" name="celsius" />
+        <input
+          type="number"
+          id="celsius-el"
+          name="celsius"
+          oninput="celToFar()"
+        />
       </div>
       <div class="fahrenheit-box">
-        <label for="fahrenheit" id="fahrenheit-el"> Fahrenheit</label>
-        <input type="number" name="fahrenheit" />
+        <label for="fahrenheit"> Fahrenheit</label>
+        <input
+          type="number"
+          id="fahrenheit-el"
+          name="fahrenheit"
+          oninput="farToCel()"
+        />
       </div>
     </div>
     <script src="app.js"></script>
