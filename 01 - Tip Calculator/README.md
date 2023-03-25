@@ -4,21 +4,25 @@
 
 - View project Live : (https://singular-gnome-cb3b8f.netlify.app/)
 
-
-
 # Step Guide :
 
-- Step 1: Create the HTML file
-  First, you'll need to create an HTML file using a text editor. This file is where you'll write the code that will create the structure and content of your web page. It could have something like input fields where you can enter the amount and percentage of tip.
+- Step 1 : Create an HTML file with the basic structure, including the necessary heading, sections, inputs, and buttons, and link the CSS and JavaScript files.
 
-- Step 2: Add styling with CSS
-  Once you have the basic structure of your HTML file set up, you can use CSS to make your web page look nice. CSS is what you use to style web pages, so you can make your input fields look pretty, change the font or background color, or add containers to make things neatly organized.
+- Step 2 : Add styling to the elements using CSS to structure the layout, colors, and typography.
 
-- Step 3: Write JavaScript code
-  Add a script tag to include JavaScript in your HTML file. Then write the code that calculates the tip and total amount. Use event listeners to detect when a user clicks a button and fetches the values entered in the input fields to perform the calculation. Finally, display the results on the page.
+- Step 3 : In the JavaScript file, create variables for all necessary elements and assign them.
 
-- Step 4: Test and debug
-  Finally, test your tip calculator and make sure it works the way it's supposed to. Try entering different values and see if the calculated total is correct. Debug any errors that may come up.
+- Step 4 : Write a function to calculate the tip amount and the total per person based on the bill amount, tip percentage, and number of people input by the user.
+
+- Step 5 : Write a function to validate user input values and provide appropriate error messages and visual feedback.
+
+- Step 6 : Add event listeners to the calculate and reset buttons to trigger the respective functions when clicked.
+
+- Step 7 : Handle custom tip percentage inputs using a button for each percentage and allowing the user to input a custom tip percentage value.
+
+- Step 8 : Test and debug tip calculator and make sure it works the way it's supposed to. Try entering different values and see if the calculated total is correct. Debug any errors that may come up.
+
+- Step 9 : Deploy the project online, if desired.
 
 # design guide :
 
