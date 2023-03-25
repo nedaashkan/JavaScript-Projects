@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(21, 21, 21);
+  background-color: #13162b;
   background-repeat: no-repeat;
 }
 .under-app-container {
@@ -17,18 +17,18 @@ body {
   position: absolute;
   width: 70vmin;
   height: 85vmin;
-  background-color: #ff8c42;
+  background-color: #0087ff;
   border-radius: 9px;
-  box-shadow: 0 0px 5px #ff8c42;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
 }
 .app-container {
   z-index: 1;
   width: 80vmin;
-  background-color: rgb(21, 21, 21);
+  background-color: #13162b;
   background-repeat: no-repeat;
   padding: 100px 40px;
   border-radius: 9px;
-  box-shadow: 0 0px 10px #ff8c42;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
 }
 .app-container h1 {
   text-align: center;
@@ -52,23 +52,23 @@ body {
 }
 button.inc-btn,
 button.dec-btn {
-  background-color: #ff8c42;
+  background-color: #0087ff;
   color: #ffffff;
 }
 
 button.dec-btn:hover {
-  background-color: #ee7f3a;
+  background-color: #046ecc;
 }
 button.inc-btn:hover {
-  background-color: #ee7f3a;
+  background-color: #0087ff;
 }
 button.reset-btn {
   background-color: transparent;
-  border: 4px solid #ff8c42;
-  color: #ff8c42;
+  border: 4px solid #0087ff;
+  color: #0087ff;
 }
 button.reset-btn:hover {
-  border: 4px solid #df7837;
-  color: #df7837;
-  background-color: rgb(21, 21, 21);
+  border: 4px solid #026cc8;
+  color: #026cc8;
+  background-color: #13162b;
 }
