@@ -11,22 +11,20 @@
     <div class="container">
       <div class="heading">
         <h1>Percentage Calculator</h1>
-        <div>Calculate Percentage for free.</div>
+        <div class="under-text">Calculate Percentage for free.</div>
+      </div>
+      <div class="main">
+        <p>
+          What is <input type="number" id="percent-el"  /> % of
+          <input type="number" id="num-el"  /> ?
+        </p>
+        <button class="cal-btn">Calculate</button>
+      </div>
+      <div class="result">
+        <p id="result-el"></p>
       </div>
     </div>
-    <div class="main">
-      <p>
-        What is<input type="number" id="percent-el" value="25" />% of<input
-          type="number"
-          id="num-el"
-          value="70"
-        />?
-      </p>
-      <button class="cal-btn">Calculate</button>
-    </div>
-    <div class="result">
-      <p id="result-el">17.5</p>
-    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
