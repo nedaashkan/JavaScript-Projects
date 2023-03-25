@@ -4,11 +4,7 @@
 
 - View project Live : (https://singular-gnome-cb3b8f.netlify.app/)
 
-# Brief
 
-Okay kiddo, so you know how when we go out to eat at a restaurant, we have to pay for our food and leave a little extra money for the person who served us, right? Well, sometimes it's hard to figure out how much extra money to leave, especially if we're not good at math.
-
-That's where a tip calculator comes in! It's a special tool that helps us figure out how much extra money to leave based on how much our food cost and how good the service was.
 
 # Step Guide :
 
