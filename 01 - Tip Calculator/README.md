@@ -2,7 +2,7 @@
 
 ![tip-calculator](images/Tip-Calculator.PNG)
 
-- View project Live : ()
+- View project Live : (https://singular-gnome-cb3b8f.netlify.app/)
 
 # Brief
 
