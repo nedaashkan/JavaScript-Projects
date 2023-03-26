@@ -13,46 +13,51 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
-        <span>CONVERTER</span>
-        <span><i class="fa-solid fa-mug-hot"></i></span>
-      </div>
-      <div class="lenght-box">
-        <div class="lenght-from">
-          <span class="left">5 meters</span>
-          <span class="right">5 feet</span>
+      <div class="black-padding">
+        <div class="header">
+          <span>CONVERTER</span>
+          <span><i class="fa-solid fa-mug-hot"></i></span>
         </div>
-        <div class="lenght-to">
-          <span>16.405 feet</span>
-          <span>1.524 meters</span>
+        <div class="lenght-box">
+          <div class="lenght-from">
+            <span class="left"><span id="meter-num"></span> meter</span>
+            <span class="right"><span id="feet-num"></span> feet</span>
+          </div>
+          <div class="lenght-to">
+            <span><span id="feet-result"></span> feet</span>
+            <span><span id="meter-result"></span> meter</span>
+          </div>
         </div>
-      </div>
-      <div class="volume-box">
-        <div class="volume-from">
-          <span class="left">5 liters</span>
-          <span class="right">5 gallons</span>
+        <div class="volume-box">
+          <div class="volume-from">
+            <span class="left"><span id="liter-num"></span> liter</span>
+            <span class="right"><span id="gallon-num"></span> gallon</span>
+          </div>
+          <div class="volume-to">
+            <span><span id="gallon-result"></span> gallon</span>
+            <span><span id="liter-result"></span> liter</span>
+          </div>
         </div>
-        <div class="volume-to">
-          <span>1.320 gallons </span>
-          <span>18.939 liters</span>
-        </div>
-      </div>
-      <div class="mass-box">
-        <div class="mass-from">
-          <span class="left">5 kilograms</span>
-          <span class="right">5 pounds</span>
-        </div>
-        <div class="mass-to">
-          <span>11.020 pounds </span>
-          <span>2.269 kilograms</span>
+        <div class="mass-box">
+          <div class="mass-from">
+            <span class="left"><span id="kilogram-num"></span> kilogram</span>
+            <span class="right"><span id="pound-num"></span> pound</span>
+          </div>
+          <div class="mass-to">
+            <span><span id="pound-result"></span> pound</span>
+            <span><span id="kilogram-result"></span> kilogram</span>
+          </div>
         </div>
       </div>
       <div class="input-box">
         <input
           type="text"
-          placeholder="Enter a Number .."
           id="num-el"
           class="num-input"
+          placeholder="Enter a number ..."
+          autofocus="on"
+          autocomplete="off"
+          oninput="cel()"
         />
       </div>
     </div>
