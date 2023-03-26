@@ -15,6 +15,7 @@ function calculateLove() {
     massageEl.textContent = "not valid ! ";
     massageEl.classList.add("massage-color");
   } else {
+    massageEl.textContent=""
     massageEl.classList.remove("massage-color");
 
     timeId = setInterval(countUp, 125);
