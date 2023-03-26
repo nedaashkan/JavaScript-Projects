@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Base Project</title>
+    <title>Love Calculator</title>
   </head>
   <body>
+    <div class="container">
+      <div>
+        <h1>Love Calculator</h1>
+        <h2>0%</h2>
+        <div class="username-box">
+          <h2>Your Name</h2>
+          <input
+            id="firstname-el"
+            class="name-box"
+            type="text"
+            placeholder="Your Name ... "
+          />
+        </div>
+        <div class="Lover-box">
+          <h2>Lover's Name</h2>
+          <input
+            id="lovername-el"
+            class="name-box"
+            type="text"
+            placeholder="Lover's Name ... "
+          />
+        </div>
+      </div>
+      <div class="btn-box">
+        <button onclick="loveCalculator()">Calculator</button>
+        <button onclick="resetFunction()">Reset</button>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>

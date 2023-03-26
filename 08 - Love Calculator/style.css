@@ -1,5 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+body {
+  background-color: #ed5166;
+  color: #2b122d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fffdfe;
+  border-radius: 10px;
+  padding: 40px 60px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
+}
+.container h1 {
+  margin-bottom: 20px;
+  color: #ed5166;
+  font-size: 2rem;
+}
+.container h2 {
+  color: #6c4272;
+  margin-bottom: 20px;
+}
+.name-box {
+  margin-top: 10px;
+  padding: 12px 14px;
+  width: 100%;
+  border: none;
+  color: #6c4272;
+  background-color: #f5eff6;
+  text-align: center;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #6c4272;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  color: white;
+  width: 40%;
+  transition: all ease-in-out 150ms;
+}
+button:hover {
+  background-color: rgb(83, 49, 87);
+}
+.Lover-box {
+  margin-top: 20px;
+}
+.btn-box {
+  margin-top: 20px;
 }
