@@ -11,29 +11,34 @@
     <div class="container">
       <div>
         <h1>Love Calculator</h1>
-        <h2>0%</h2>
+        <h2 id="heading-el"></h2>
+        <h3 id="massage-el"></h3>
         <div class="username-box">
           <h2>Your Name</h2>
           <input
-            id="firstname-el"
+            id="first-name-el"
             class="name-box"
             type="text"
+            autofocus="on"
+            autocomplete="off"
             placeholder="Your Name ... "
           />
         </div>
         <div class="Lover-box">
           <h2>Lover's Name</h2>
           <input
-            id="lovername-el"
+            id="your-partner-name-el"
             class="name-box"
             type="text"
+            autofocus="on"
+            autocomplete="off"
             placeholder="Lover's Name ... "
           />
         </div>
       </div>
       <div class="btn-box">
-        <button onclick="loveCalculator()">Calculator</button>
-        <button onclick="resetFunction()">Reset</button>
+        <button onclick="calculateLove()">Calculator</button>
+        <button onclick="rest()">Reset</button>
       </div>
     </div>
 
