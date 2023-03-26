@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Base Project</title>
+    <title>BMI Calculator</title>
   </head>
   <body>
+    <div class="container">
+      <div class="img-result">
+        <img src="images/fat.png" id="img-el" />
+        <p id="result-el">you are over weight</p>
+      </div>
+      <div class="bmi-box" id="bmi-el">0.54</div>
+      <div class="height-weight-box">
+        <input
+          type="text"
+          placeholder="Enter your height ... "
+          autofocus="on"
+          autocomplete="off"
+          id="height-el"
+          class="height"
+        />
+        <input
+          type="text"
+          placeholder="Enter your weight ... "
+          autofocus="on"
+          autocomplete="off"
+          id="weight-el"
+          class="weight"
+        />
+      </div>
+      <div class="btn-box">
+        <button class="cal-btn" onclick="cal()">calculate</button>
+        <button class="reset-btn" onclick="rest()">reset</button>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
