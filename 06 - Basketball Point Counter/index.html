@@ -15,20 +15,20 @@
     <div class="container">
       <div>
         <h1>HOME</h1>
-        <h2 id="number-1">0</h2>
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <h2 id="num-1-el"></h2>
+        <button onclick="plusOne1()">+1</button>
+        <button onclick="plusTwo1()">+2</button>
+        <button onclick="plusThree1()">+3</button>
       </div>
       <div>
         <h1>GUEST</h1>
-        <h2 id="number-2">0</h2>
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <h2 id="num-2-el"></h2>
+        <button onclick="plusOne2()">+1</button>
+        <button onclick="plusTwo2()">+2</button>
+        <button onclick="plusThree2()">+3</button>
       </div>
     </div>
-    <button class="new-game-btn">New Game</button>
-    <script src="./js/index.js"></script>
+    <button class="new-game-btn" onclick="reset()">New Game</button>
+    <script src="app.js"></script>
   </body>
 </html>
