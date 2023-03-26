@@ -9,15 +9,15 @@
   </head>
   <body>
     <div class="container">
-      <div class="img-result">
-        <img src="images/fat.png" id="img-el" />
-        <p id="result-el">you are over weight</p>
+      <div class="img-result" id="color-el">
+        <img src="images/normal.png" id="img-el" />
+        <p id="result-el">BMI Calculator</p>
       </div>
-      <div class="bmi-box" id="bmi-el">0.54</div>
+      <div class="bmi-box" id="bmi-num-el">0</div>
       <div class="height-weight-box">
         <input
           type="text"
-          placeholder="Enter your height ... "
+          placeholder="Enter your height cm ... "
           autofocus="on"
           autocomplete="off"
           id="height-el"
@@ -25,7 +25,7 @@
         />
         <input
           type="text"
-          placeholder="Enter your weight ... "
+          placeholder="Enter your weight kg ... "
           autofocus="on"
           autocomplete="off"
           id="weight-el"
@@ -33,7 +33,7 @@
         />
       </div>
       <div class="btn-box">
-        <button class="cal-btn" onclick="cal()">calculate</button>
+        <button class="cal-btn" onclick="calculateBMI()">calculate</button>
         <button class="reset-btn" onclick="rest()">reset</button>
       </div>
     </div>
