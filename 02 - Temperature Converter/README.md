@@ -1,8 +1,8 @@
 # Temperature Converter
 
-![temperature-converter]()
+![temperature-converter](images/Temperature-Converter.PNG)
 
-- View project Live : ()
+- View project Live : (https://lambent-begonia-129643.netlify.app/)
 
 # Step Guide :
 
