@@ -1,8 +1,8 @@
 # Counter App
 
-![counter-app]()
+![counter-app](images/Counter-App.PNG)
 
-- View project Live : ()
+- View project Live : (https://amazing-licorice-7697c4.netlify.app/)
 
 # Step Guide :
 
