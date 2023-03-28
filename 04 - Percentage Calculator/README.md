@@ -2,7 +2,7 @@
 
 ![percentage-calculator](images/Percentage-Calculator.PNG)
 
-- View project Live : ()
+- View project Live : (https://velvety-mochi-663420.netlify.app/)
 
 # Step Guide :
 
