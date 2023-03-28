@@ -26,6 +26,6 @@
 
 # design guide :
 
-i used frontendmentor website tip calculator app design you can make your own style and design or use this
+i used frontendmentor website, tip calculator app design.
 
 - website : (https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
