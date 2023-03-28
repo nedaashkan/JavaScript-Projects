@@ -1,6 +1,6 @@
 # Percentage Calculator
 
-![percentage-calculator]()
+![percentage-calculator](images/Percentage-Calculator.PNG)
 
 - View project Live : ()
 
@@ -21,3 +21,9 @@
 - Step 7 : Display the result using the innerHTML property of a result div.
 
 - Step 8 : Test the application to make sure it works properly.
+
+# design guide :
+
+i used uidesigndaily website for percentage calculator app design
+
+- website : (https://www.uidesigndaily.com/posts/sketch-percentage-calculator-day-623)
