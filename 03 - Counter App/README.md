@@ -2,7 +2,7 @@
 
 ![counter-app](images/Counter-App.PNG)
 
-- View project Live : (https://amazing-licorice-7697c4.netlify.app/)
+- View project Live : (https://resilient-cuchufli-dee437.netlify.app/)
 
 # Step Guide :
 
