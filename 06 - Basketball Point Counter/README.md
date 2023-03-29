@@ -1,8 +1,8 @@
 # Basketball Point Counter
 
-![basketball-point-counter]()
+![basketball-point-counter](images/Basketball%20Point%20Counter.PNG)
 
-- View project Live : ()
+- View project Live : (https://amazing-licorice-7697c4.netlify.app/)
 
 # Step Guide :
 
