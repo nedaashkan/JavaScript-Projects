@@ -1,8 +1,8 @@
 # Unit Converter
 
-![unit-converter]()
+![unit-converter](images/Unit-Converter.PNG)
 
-- View project Live : ()
+- View project Live : (https://dreamy-licorice-d81e17.netlify.app/)
 
 # Step Guide :
 
@@ -21,3 +21,9 @@
 - Step 7 : Add a check for NaN values in the input field, and clear the output sections if the input is not a number.
 
 - Step 8 : Test the app by inputting different numbers and checking the output values for each unit category.
+
+# design guide :
+
+i used dribbble website for unit-converter app design
+
+- website : (https://dribbble.com/shots/19973856-Unit-Converter-Figma-Plugin)
